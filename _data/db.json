@@ -1,0 +1,59 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "title": "Fix the footer links please",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "low",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "2",
+      "title": "Add in a new stylesheet",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "medium",
+      "user_email": "mario@netninja.dev"
+    },
+    {
+      "id": "3",
+      "title": "Fix the footer links",
+      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+      "priority": "high",
+      "user_email": "peach@netninja.dev"
+    },
+    {
+      "title": "test ticket one",
+      "body": "fafifu wasweswos",
+      "priority": "high",
+      "user_email": "admin@web.com",
+      "id": "L3yh7nm"
+    },
+    {
+      "title": "test ticket numbah two",
+      "body": "fa fi fu was wes wos",
+      "priority": "low",
+      "user_email": "admin@web.com",
+      "id": "SaNqVf4"
+    },
+    {
+      "title": "final ticket",
+      "body": "hmm please show up bruh",
+      "priority": "medium",
+      "user_email": "admin@web.com",
+      "id": "Xe8IUCW"
+    },
+    {
+      "title": "rest title",
+      "body": "blah blah blah...",
+      "priotity": "low",
+      "id": "bkGHlok"
+    },
+    {
+      "title": "rest title with email",
+      "body": "blah blah blah...",
+      "user_email": "user@email.com",
+      "priotity": "low",
+      "id": "gwr3C0j"
+    }
+  ]
+}
