@@ -19,17 +19,21 @@ export default function CreateForm() {
     const ticket = {
       title: title,
       body: body,
-      priority: priority,
-      user_email: 'admin@web.com'
+      priority: priority
     }
 
-    const response = await fetch('http://localhost:4000/tickets', {
+    const response = await fetch('http://localhost:3000/api/v1/tickets', {
       method: "POST",
       headers: {"content-type": "application/json"},
       body: JSON.stringify(ticket)
     })
 
-    if (response.status === 201) {
+    const json = await response.json()
+
+    if(json.error) {
+      console.log(json.error.message)
+    }
+    if(json.data) {
       router.refresh()
       router.push('/tickets')
     }
