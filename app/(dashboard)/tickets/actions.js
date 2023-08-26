@@ -27,3 +27,19 @@ export async function addTicket(formData) {
     redirect('/tickets')
 
 }
+
+export async function deleteTicket(id) {
+    const supabase = createServerActionClient({cookies})
+
+    // delete data
+    const { error } = await supabase.from('tickets')
+        .delete()
+        .eq('id', id)
+
+    if (error) {
+        throw new Error('Could not delete the new ticket.')
+    }
+
+    revalidatePath('/tickets')
+    redirect('/tickets')
+}
