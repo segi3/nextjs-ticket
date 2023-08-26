@@ -1,12 +1,9 @@
-"use client"
 
-import { useState } from "react";
-
+import SubmitButton from "../../../components/SubmitButton"
 import { addTicket } from "../actions";
 
 export default function CreateForm() {
 
-  const [isLoading, setIsLoading] = useState(false)
 
   return (
     <form action={addTicket} className="w-1/2">
@@ -38,13 +35,8 @@ export default function CreateForm() {
         </select>
       </label>
 
-      <button 
-        className="btn-primary" 
-        disabled={isLoading}
-      >
-      {isLoading && <span>Adding...</span>}
-      {!isLoading && <span>Add Ticket</span>}
-    </button>
+      <SubmitButton />
+
     </form>
   )
 }
